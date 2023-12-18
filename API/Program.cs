@@ -1,11 +1,4 @@
-using System.Text;
-using API.Data;
-using API.Interfaces;
-using API.Services;
 using API.Extensions;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
